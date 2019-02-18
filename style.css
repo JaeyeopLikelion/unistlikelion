@@ -137,6 +137,7 @@ hr {
 
 #activity {
     max-width: 100%;
+    height: 0; 
 }
 
 .mySlides {
@@ -176,6 +177,7 @@ hr {
     color: white;
     background-color: rgb(51, 51, 51);
     height: 20vh;
+    margin-top: 10%;
 }
 
 #contact p {
@@ -198,7 +200,7 @@ hr {
     }
     #activity {
         max-width: 100%;
-        padding-bottom: 0%;   
+        height: 0;  
     }
     #contact {
         height: 100px;
