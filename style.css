@@ -65,7 +65,7 @@ hr {
 }
 
 #intro h2 {
-    font-size: 5vw;
+    font-size: 3vw;
     padding-top: 5%;
 }
 
@@ -91,7 +91,7 @@ hr {
 }
 
 #intro_content2 p {
-    font-size: 1vw;
+    font-size: 2vw;
     font-family: sans-serif;
 }
 
@@ -151,7 +151,7 @@ hr {
 #activity h2 {
     margin-top: 8%;
     margin-bottom: 10%;
-    font-size: 5vw;
+    font-size: 3vw;
 }
 
 #activity_image img{
