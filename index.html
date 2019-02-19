@@ -3,6 +3,7 @@
 
 <html>
   <head>
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     
@@ -13,6 +14,7 @@
 
     <!-- 부가적인 테마 -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -24,6 +26,7 @@
     src="http://code.jquery.com/jquery-3.3.1.js"
     integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
     crossorigin="anonymous"></script>
+    
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
   
@@ -82,7 +85,7 @@
         <a href = "https://apply.likelion.org"><p><strong>지원서 작성하기</strong></p></a>  
       </div>
     </div>
-    
+
     <div id="activity">
       <div class="container">
         <h2><strong>Activity</strong></h2>
@@ -132,7 +135,7 @@
           </a>
         </div>
       </div>
-       <footer class="footer">
+      <footer class="footer">
         <div class="container">
           <div class="row">
             <div class="col-lg-12 h-100 text-center my-auto">
@@ -149,14 +152,14 @@
 <script type="text/javascript">
   function goToScrollById(id) {
     var scroll_position = $('#' + id).offset().top;
-
+    
     $('#' + id + '_link').click(function() {
       $('html, body').animate({
         scrollTop: scroll_position
       }, 'slow')
     })
   }
-
+  
   $(document).ready(function(){
     goToScrollById('main')
     goToScrollById('intro')
@@ -164,6 +167,5 @@
     goToScrollById('activity')      
   })
 </script>
-
 </html>
 
