@@ -167,10 +167,13 @@ hr {
         padding-bottom: 100%;   
     }
     #myCarousel h3 {
-        font-size: 0.6em;
+        font-size: 0.8em;
     }
     #myCarousel p {
-        font-size: 0.2em;
+        font-size: 0.5em;
+    }
+    footer.footer span {
+        font-size: 0.6em;
     }
 }
 
@@ -184,8 +187,5 @@ footer.footer {
     padding-bottom: 2vw;
     background-color: rgb(65, 64, 64);
     color: white;
-}
-
-footer.footer span {
-    font-size: 1.5vw;
+    font-size: 1em;
 }
